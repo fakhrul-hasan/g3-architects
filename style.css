@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+.banner{
+    width: 100%;
+    height: auto;
+    background-color: #fff4e7;
+    text-align: center;
+}
+nav{
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav h2{
+    font-weight: 700;
+    font-size: 30px;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+ul li{
+    list-style-type: none;
+}
+li a {
+    text-decoration: none;
+    color: #424242;
+    font-weight: 500;
+    font-size: 16px;
+}
+.introduction{
+    margin: 0 370px 30px;
+}
+.introduction h1{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.description{
+    font-size: 12px;
+    color: #727272;
+    margin-bottom: 20px;
+}
+.explore-btn{
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    padding: 15px 20px;
+}
+.banner-img{
+    width: 75%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.feature{
+    width: 75%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 40px auto;
+    gap: 40px;
+}
+.imgs-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.imgs-section img{
+    max-width: 220px;
+}
+.section-detail h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.gray{
+    color: #727272;
+    font-weight: 500;
+}
+.orange{
+    color: #FF900E;
+}
+.feature-article{
+    width: 75%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 40px auto;
+    column-gap: 40px;
+}
+.article-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+}
+.article-div p {
+    line-height: 16px;
+}
+.top-article h3{
+    font-weight: 700;
+    font-size: 30px;
+    border-left: 4px solid #FF900E;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+.architect-img img{
+    max-height: 600px;
+}
+.experience-btn{
+    position: relative;
+    bottom: 90px;
+    left: -30px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    padding: 30px 25px;    
+}
+.experience-btn>span{
+    font-weight: 700;
+    font-size: 45px;
+}
+.article{
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding-left: 20px;
+}
+.article h5{
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
